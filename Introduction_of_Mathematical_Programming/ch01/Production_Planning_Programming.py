@@ -17,7 +17,6 @@ prog += pulp.lpDot(c, [x[i] for i in range(3)])
 
 for row in range(4):
     prog += pulp.lpDot(A[row], [x[i] for i in range(3)]) <= b[row]
-print(prog)
 
 for i in range(3):
     prog += x[i] >= 0
