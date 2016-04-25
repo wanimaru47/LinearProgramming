@@ -2,7 +2,7 @@
 
 import pulp
 
-prog = pulp.LpProblem('test', pulp.LpMaximize)
+prog = pulp.LpProblem('Production Planning Problem', pulp.LpMaximize)
 
 A = [[5, 0, 6],
      [0, 2, 8],
