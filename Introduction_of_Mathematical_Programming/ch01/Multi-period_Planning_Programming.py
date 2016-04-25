@@ -1,3 +1,5 @@
+# 1.1.2 Multi-period Planning Problem
+
 import pulp
 
 # N: product variety
